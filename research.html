@@ -1,92 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="ECON 398 research paper on Texas H.B. 1540 and felony penalties for buying sex, using a synthetic control design." />
-        <meta name="author" content="Aidan Madsen" />
-        <title>Research &mdash; Aidan Madsen</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100 bg-light">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Aidan Madsen</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Research · Aidan Madsen</title>
+    <meta name="description" content="ECON 398 research paper on Texas H.B. 1540 and felony penalties for buying sex, using a synthetic control design." />
+    <meta name="author" content="Aidan Madsen" />
+    <meta name="theme-color" content="#09090f" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="research">
+    <div class="backdrop" aria-hidden="true"></div>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="nav">
+        <div class="wrap nav-inner">
+            <a class="brand" href="index.html" aria-label="Aidan Madsen, home">
+                <span class="brand-mark">AM</span>
+                <span class="brand-name">Aidan Madsen</span>
+            </a>
+            <nav class="nav-links" aria-label="Sections">
+                <a href="index.html#overview">Overview</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="research.html" class="active" aria-current="page">Research</a>
+                <a href="index.html#contact">Contact</a>
             </nav>
-            <!-- Research Section-->
-            <section class="py-5">
-                <div class="container px-5 mb-5">
-                    <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Research</span></h1>
-                    </div>
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="text-primary fw-bolder small mb-2">ECON 398 Applied Econometrics &middot; with Carly Pope and Clara Eccles</div>
-                                    <h2 class="fw-bolder mb-4">How Does Raising the Punishment for Purchasing Prostitution to a Felony Level Affect Sex-Related Crime Rates?</h2>
-                                    <h3 class="h5 fw-bolder text-primary">The question</h3>
-                                    <p>In 2021, Texas passed H.B. 1540, which made buying sex a state jail felony. Selling sex stayed a Class B misdemeanor. We asked whether the tougher penalty on buyers changed the rate of reported sex-related offenses in Texas.</p>
-                                    <h3 class="h5 fw-bolder text-primary">The method</h3>
-                                    <p>We used a synthetic control design in Stata. We built a &ldquo;Synthetic Texas&rdquo; from Illinois, Montana, North Dakota, Oklahoma, Oregon, Washington, and Wisconsin, weighted to match Texas over 2013&ndash;2020, then compared the two after the law took effect. We left out New York and Maine (their own 2021 prostitution law changes), Nevada (prostitution is legal there), and states with incomplete reporting.</p>
-                                    <h3 class="h5 fw-bolder text-primary">The data</h3>
-                                    <p>FBI National Incident-Based Reporting System (NIBRS) data for 2013&ndash;2023, covering prostitution, human trafficking, forcible rape, and pornography/obscene material offenses. Because states recorded prostitution offenses inconsistently, we combined them into one aggregate prostitution count.</p>
-                                    <h3 class="h5 fw-bolder text-primary">What we found</h3>
-                                    <p>No statistically significant effect. Reported offenses dipped right after the law and then ticked back up. Texas did not stand out from the donor states in placebo comparisons, and the gap between Texas and Synthetic Texas was under ten offenses per 100,000 people. We suspect changes in what gets reported and prosecuted explain more of the movement than changes in behavior.</p>
-                                    <h3 class="h5 fw-bolder text-primary">Limits</h3>
-                                    <p>NIBRS only captures reported crime, so a market pushed further underground could look like a drop. Texas and Synthetic Texas diverged in 2020 and just before the law, and we only have a short window after it. A null result here does not prove the law changed nothing.</p>
-                                    <a class="btn btn-outline-dark btn-sm" href="projects.html">&larr; Back to Projects</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="nav-actions">
+                <button class="btn cmdk-trigger" type="button" data-cmdk-open aria-label="Open quick actions">
+                    <i class="bi bi-search" aria-hidden="true"></i>
+                    <span class="hide-sm">Jump to</span>
+                    <kbd class="kbd hide-sm" data-mod-key>⌘K</kbd>
+                </button>
+                <a class="btn btn-primary" href="assets/Aidan_Madsen_Resume.pdf" download>
+                    <i class="bi bi-download" aria-hidden="true"></i><span>Resume</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" class="wrap article">
+        <a class="back-link" href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to home</a>
+
+        <p class="label">Research &middot; ECON 398 Applied Econometrics</p>
+        <h1 class="article-title">How does raising the punishment for purchasing prostitution to a <span class="serif grad-text">felony</span> level affect sex-related crime rates?</h1>
+        <p class="byline">Aidan Madsen, with Carly Pope and Clara Eccles</p>
+
+        <div class="stat-strip">
+            <div class="tile"><div class="stat-num">2021</div><p class="stat-cap">Texas H.B. 1540 takes effect</p></div>
+            <div class="tile"><div class="stat-num" data-count="7">7</div><p class="stat-cap">donor states in Synthetic Texas</p></div>
+            <div class="tile"><div class="stat-num" data-count="11">11</div><p class="stat-cap">years of FBI NIBRS data</p></div>
+            <div class="tile"><div class="stat-num">Null</div><p class="stat-cap">no statistically significant effect</p></div>
+        </div>
+
+        <figure class="tile chart-card" style="margin:0">
+            <div class="chart-head">
+                <div>
+                    <h2 class="tile-title">Real Texas vs. Synthetic Texas</h2>
+                    <p class="tile-meta">Reported sex-related offenses per 100,000 people</p>
                 </div>
-            </section>
-            <!-- Call to action section-->
-            <section class="py-5 bg-gradient-primary-to-secondary text-white">
-                <div class="container px-5 my-5">
-                    <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Aidan Madsen 2026</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="contact.html">Contact</a>
-                    </div>
+                <div class="legend">
+                    <span><i class="sw sw-tx"></i>Texas</span>
+                    <span><i class="sw sw-syn"></i>Synthetic Texas</span>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+            <div class="chart-wrap" data-research-chart tabindex="0" role="img" aria-label="Line chart of reported sex-related offenses per 100,000 people, 2013 to 2023. Texas and Synthetic Texas track closely through 2020; after the law in 2021 Texas sits above Synthetic Texas. Use left and right arrow keys to read each year.">
+                <div class="chart-tip" aria-hidden="true"></div>
+            </div>
+            <figcaption class="chart-head">
+                <span class="chart-note">Source: FBI NIBRS, 2013&ndash;2023. Values are approximate, read from the paper&rsquo;s Figure 4.</span>
+                <span class="chart-hint">Hover or tap a year &middot; &larr; &rarr; keys</span>
+            </figcaption>
+            <details class="data-table">
+                <summary>View the data table</summary>
+                <table>
+                    <thead><tr><th scope="col">Year</th><th scope="col">Texas</th><th scope="col">Synthetic</th><th scope="col">Gap</th></tr></thead>
+                    <tbody>
+                        <tr><td>2013</td><td>47.9</td><td>48.9</td><td>&minus;1.0</td></tr>
+                        <tr><td>2014</td><td>54.5</td><td>53.9</td><td>+0.6</td></tr>
+                        <tr><td>2015</td><td>53.9</td><td>54.0</td><td>&minus;0.1</td></tr>
+                        <tr><td>2016</td><td>53.9</td><td>54.1</td><td>&minus;0.2</td></tr>
+                        <tr><td>2017</td><td>62.3</td><td>62.3</td><td>0.0</td></tr>
+                        <tr><td>2018</td><td>56.7</td><td>57.0</td><td>&minus;0.3</td></tr>
+                        <tr><td>2019</td><td>61.1</td><td>60.6</td><td>+0.5</td></tr>
+                        <tr><td>2020</td><td>52.3</td><td>53.1</td><td>&minus;0.8</td></tr>
+                        <tr><td>2021</td><td>70.8</td><td>62.0</td><td>+8.8</td></tr>
+                        <tr><td>2022</td><td>65.5</td><td>60.8</td><td>+4.7</td></tr>
+                        <tr><td>2023</td><td>69.4</td><td>57.9</td><td>+11.5</td></tr>
+                    </tbody>
+                </table>
+            </details>
+        </figure>
+
+        <div class="prose">
+            <section class="prose-block" data-reveal>
+                <h2><span class="section-num">01</span> The question</h2>
+                <p>In 2021, Texas passed H.B. 1540, which made buying sex a state jail felony. Selling sex stayed a Class B misdemeanor. We asked whether the tougher penalty on buyers changed the rate of reported sex-related offenses in Texas.</p>
+            </section>
+
+            <section class="prose-block" data-reveal>
+                <h2><span class="section-num">02</span> The method</h2>
+                <p>We used a synthetic control design in Stata. We built a &ldquo;Synthetic Texas&rdquo; from Illinois, Montana, North Dakota, Oklahoma, Oregon, Washington, and Wisconsin, weighted to match Texas over 2013&ndash;2020, then compared the two after the law took effect. We left out New York and Maine (their own 2021 prostitution law changes), Nevada (prostitution is legal there), and states with incomplete reporting.</p>
+                <p class="label" style="margin-top:12px">What Synthetic Texas is made of</p>
+                <ul class="weights" aria-label="Synthetic control weights by state">
+                    <li><span class="w-name">Washington</span><div class="bar"><span style="--w:48.8%"></span></div><span class="w-val">48.8%</span></li>
+                    <li><span class="w-name">North Dakota</span><div class="bar"><span style="--w:26.1%"></span></div><span class="w-val">26.1%</span></li>
+                    <li><span class="w-name">Montana</span><div class="bar"><span style="--w:16.9%"></span></div><span class="w-val">16.9%</span></li>
+                    <li><span class="w-name">Oklahoma</span><div class="bar"><span style="--w:4.1%"></span></div><span class="w-val">4.1%</span></li>
+                    <li><span class="w-name">Illinois</span><div class="bar"><span style="--w:2.6%"></span></div><span class="w-val">2.6%</span></li>
+                    <li><span class="w-name">Oregon</span><div class="bar"><span style="--w:1.1%"></span></div><span class="w-val">1.1%</span></li>
+                    <li><span class="w-name">Wisconsin</span><div class="bar"><span style="--w:0.4%"></span></div><span class="w-val">0.4%</span></li>
+                </ul>
+            </section>
+
+            <section class="prose-block" data-reveal>
+                <h2><span class="section-num">03</span> The data</h2>
+                <p>FBI National Incident-Based Reporting System (NIBRS) data for 2013&ndash;2023, covering prostitution, human trafficking, forcible rape, and pornography/obscene material offenses. Because states recorded prostitution offenses inconsistently, we combined them into one aggregate prostitution count.</p>
+            </section>
+
+            <section class="prose-block finding" data-reveal>
+                <h2><span class="section-num">04</span> What we found</h2>
+                <p>No statistically significant effect. Reported offenses dipped right after the law and then ticked back up. Texas did not stand out from the donor states in placebo comparisons, and the gap between Texas and Synthetic Texas was under ten offenses per 100,000 people. We suspect changes in what gets reported and prosecuted explain more of the movement than changes in behavior.</p>
+            </section>
+
+            <section class="prose-block" data-reveal>
+                <h2><span class="section-num">05</span> Limits</h2>
+                <p>NIBRS only captures reported crime, so a market pushed further underground could look like a drop. Texas and Synthetic Texas diverged in 2020 and just before the law, and we only have a short window after it. A null result here does not prove the law changed nothing.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="wrap footer">
+        <span>&copy; 2026 Aidan Madsen</span>
+        <button class="footer-hint" type="button" data-cmdk-open>Press <kbd class="kbd" data-mod-key>⌘K</kbd> to jump anywhere</button>
+    </footer>
+
+    <dialog class="cmdk" id="cmdk" aria-label="Quick actions">
+        <div class="cmdk-search">
+            <i class="bi bi-search" aria-hidden="true"></i>
+            <input id="cmdk-input" type="text" placeholder="Jump to a section or action…" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="true" aria-controls="cmdk-list" aria-autocomplete="list" />
+            <kbd class="kbd">esc</kbd>
+        </div>
+        <ul id="cmdk-list" class="cmdk-list" role="listbox" aria-label="Results"></ul>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <script src="js/site.js"></script>
+</body>
 </html>
