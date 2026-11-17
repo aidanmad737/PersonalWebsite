@@ -132,7 +132,7 @@
     var list = document.getElementById("cmdk-list");
     var ACTIONS = [
         { group: "Go to", label: "Overview", icon: "bi-grid-1x2", href: HOME + "#overview", keys: "home top intro" },
-        { group: "Go to", label: "Experience", icon: "bi-briefcase", href: HOME + "#experience", keys: "work jobs resume nucleus philo printadontics sandbox" },
+        { group: "Go to", label: "Experience", icon: "bi-briefcase", href: HOME + "#experience", keys: "work jobs resume nucleus philo printadontics sandbox fairway" },
         { group: "Go to", label: "Education & Skills", icon: "bi-mortarboard", href: HOME + "#skills", keys: "byu school languages spanish python excel" },
         { group: "Go to", label: "Contact", icon: "bi-chat-dots", href: HOME + "#contact", keys: "email reach hire" },
         { group: "Go to", label: "Research: Texas H.B. 1540", icon: "bi-graph-up", href: "research.html", keys: "paper econometrics synthetic control stata" },
