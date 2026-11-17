@@ -141,8 +141,9 @@
         { group: "Actions", label: "Download resume (PDF)", icon: "bi-download", href: RESUME, download: true, keys: "cv pdf" },
         { group: "Actions", label: "Send an email", icon: "bi-envelope", href: "mailto:" + EMAIL, keys: "mail contact" },
         { group: "Links", label: "LinkedIn", icon: "bi-linkedin", href: LINKEDIN, external: true, keys: "connect profile" },
-        { group: "Links", label: "Printadontics", icon: "bi-box-arrow-up-right", href: "https://www.printadontics.com/", external: true, keys: "dental startup" },
-        { group: "Links", label: "Chapshift", icon: "bi-box-arrow-up-right", href: "https://chapshift.com", external: true, keys: "app saas" },
+        { group: "Go to", label: "Printadontics case study", icon: "bi-file-text", href: "printadontics.html", keys: "dental startup venture" },
+        { group: "Go to", label: "Chapshift case study", icon: "bi-file-text", href: "chapshift.html", keys: "app saas shift scheduling" },
+        { group: "Links", label: "Chapshift on the App Store", icon: "bi-box-arrow-up-right", href: "https://apps.apple.com/us/app/chapshift/id6754344701", external: true, keys: "app ios apple" },
         { group: "Links", label: "Fairway Glass (website I built)", icon: "bi-box-arrow-up-right", href: "https://fairwayglass.com/", external: true, keys: "web design client site glazing" }
     ];
     var filtered = ACTIONS.slice();
